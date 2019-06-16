@@ -1,0 +1,77 @@
+.calc_parent
+{
+	width: 240px;
+	margin: auto;
+	font-size: 0px;
+}
+
+
+#displaystr, #displayresult
+{
+	font-family: 'BebasNeueRegular';
+   	font-weight: normal;
+   	font-style: normal;
+   	font-size: 25pt;
+	width: 240px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	resize: none;
+	background-color: #272822;
+	border:none;
+	border-bottom: 1pt solid #474749;
+	text-align: right;
+	
+}
+
+.bouton
+{
+	font-family: 'BebasNeueRegular';
+    font-weight: normal;
+   	font-style: normal;
+   	font-size: 30px;
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	
+	background-color: #272822;
+	border: 1pt solid #474749;
+	border-top: none;
+	border-left: none;
+}
+
+.bouton_calc
+{
+	display:inline-block;
+	width: 240px;
+	text-align: center;
+	
+}
+
+#Envoyer
+{
+	width:240px;
+	background-color: #d84136;
+}
+
+#div, #plus, #moins, #mult
+{
+	background-color: #d6a52c;
+}
+
+#div:active, #plus:active, #moins:active, #mult:active
+{
+	background-color: #ffb603;
+}
+
+.bouton:active
+{
+	background-color: #3d3d34;
+}
+
+#Envoyer.equal:active
+{
+	background-color: #f52819; 
+}
+
